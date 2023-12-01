@@ -1,0 +1,9 @@
+com.fullstackbd.student
+com.fullstackbd.student.common.controller
+com.fullstackbd.student.common.exceptions
+com.fullstackbd.student.common.service
+com.fullstackbd.student.controller
+com.fullstackbd.student.exception
+com.fullstackbd.student.model
+com.fullstackbd.student.repository
+com.fullstackbd.student.service

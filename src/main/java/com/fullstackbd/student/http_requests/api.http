@@ -1,0 +1,25 @@
+GET http://localhost:8001/api/students/
+###
+GET http://localhost:8001/api/students/1
+###
+POST http://localhost:8001/api/students/
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "class": 7,
+  "roll": 2,
+  "section": "C"
+}
+###
+PUT http://localhost:8001/api/students/4
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "class": 7,
+  "roll": 3,
+  "section": "A"
+}
+###
+DELETE http://localhost:8001/api/students/1
